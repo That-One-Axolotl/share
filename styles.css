@@ -1,10 +1,20 @@
 .image-container{
     width: 24vw;
     height: 300px;
+    margin-top: 10px;
     display: inline-block;
     overflow: hidden;
     border: 5px solid black; 
+    transition: all 0.5s;
 }
 img{
     width: 24vw;
+}
+.image-container:hover{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.image-container:active{
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
