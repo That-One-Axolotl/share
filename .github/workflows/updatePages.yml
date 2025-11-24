@@ -3,6 +3,7 @@ name: Run Scripts on Commit
 on:
   push:
     branches: [ "**" ]
+  workflow_dispatch:
 
 jobs:
   run-scripts:
