@@ -14,6 +14,7 @@ const htmlSkeleton = `<!DOCTYPE html>
                 ${imageshmtl}
             </div>
             <script src="./copy.js"></script>
+            <script src="./preventCaching.js"></script>
         </body>
     </html>`;
 fs.writeFileSync("./index.html", htmlSkeleton);
