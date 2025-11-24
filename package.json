@@ -1,0 +1,22 @@
+{
+  "name": "share",
+  "version": "1.0.0",
+  "description": "just a website to share images and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/That-One-Axolotl/share.git"
+  },
+  "keywords": [
+    "joe"
+  ],
+  "author": "That One Axolotl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/That-One-Axolotl/share/issues"
+  },
+  "homepage": "https://github.com/That-One-Axolotl/share#readme"
+}
