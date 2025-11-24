@@ -10,6 +10,7 @@ const htmlSkeleton = `<!DOCTYPE html>
             <div id="images">
                 ${imageshmtl}
             </div>
+            <script src="./copy.js"></script>
         </body>
     </html>`;
 fs.writeFileSync("./index.html", htmlSkeleton);
