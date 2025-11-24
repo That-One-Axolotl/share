@@ -1,10 +1,12 @@
 const fs = require('fs');
-const imageshmtl = fs.readdirSync("./images").map(image => `
-    <img src="./images/${image}"style="border: 5px solid black; width: 500px;"class="copyableImage"> `).join("");
+const imageshmtl = fs.readdirSync("./images").map(image => `<div class="image-container">
+    <img src="./images/${image}" class="copyableImage">
+    </div> `).join("");
 const htmlSkeleton = `<!DOCTYPE html>
     <html>
         <head>
             <title>HFDUSIFHBSIRFEG YSUI BEYHU IF</title>
+            <link rel="stylesheet" href="styles.css">
         </head>
         <body>
             <div id="images">

@@ -1,0 +1,10 @@
+.image-container{
+    width: 24vw;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
+    border: 5px solid black; 
+}
+img{
+    width: 24vw;
+}
