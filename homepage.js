@@ -1,6 +1,8 @@
 const fs = require('fs');
-const imageshmtl = fs.readdirSync("./images").map(image => `
-    <a href="./images/${image}"><h3>${image}</h3></a>`).join("");
+const imageshmtl = fs.readdirSync("./images").map(image => `<div class="image-container">
+    <h3>${image}</h3>
+    <img src="./images/${image}" class="copyableImage">
+    </div> `).join("");
 const htmlSkeleton = `<!DOCTYPE html>
     <html>
         <head>
