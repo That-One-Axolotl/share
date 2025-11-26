@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run index.js
-        run: node index.js
+      - name: Run rename.js
+        run: node rename.js
 
       - name: Run homepage.js
         run: node homepage.js
